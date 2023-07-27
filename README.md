@@ -1,3 +1,7 @@
+**This was the second hackathon we did at School of Code on 20230324. See the instructions we were given below.**
+
+
+
 # Fetch Hackathon
 
 Today, we will be using our newfound skills to make apps that request data from a server.
