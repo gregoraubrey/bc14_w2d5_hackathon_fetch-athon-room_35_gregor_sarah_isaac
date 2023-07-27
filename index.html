@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Battle!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+        <a href="https://fontmeme.com/pokemon-font/"><img src="https://fontmeme.com/permalink/230324/d53ed26d05327368e7b783635e31aa1b.png" alt="pokemon-font" border="0"></a>
+    </div>
+    <div id="game-elements">
+      <table>
+        <tr>
+          <td><h1>Player</h1></td>
+          <td><h2 id="winner-announced">Let's battle<br/><br/>💪🏻</h2></td>
+          <td><h1>Computer</h1></td>
+        </tr>
+        <tr>
+          <td><h2 id="player-pokemon-name">Pokemon</h2></td>
+          <td><button id="play-button">PLAY</button></td>
+          <td><h2 id="computer-pokemon-name">Pokemon</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              id="player-image"
+              src="https://static.wikia.nocookie.net/pokemon-fano/images/6/6f/Poke_Ball.png/revision/latest/scale-to-width-down/180?cb=20140520015336"
+            />
+          </td>
+          <td><h2 id="score-tracker">0-0</h2></td>
+          <td>
+            <img
+              id="computer-image"
+              src="https://static.wikia.nocookie.net/pokemon-fano/images/6/6f/Poke_Ball.png/revision/latest/scale-to-width-down/180?cb=20140520015336"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><h3 id="player-hp">Base HP</h3></td>
+          <td></td>
+          <td><h3 id="computer-hp">Base HP</h3></td>
+        </tr>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
